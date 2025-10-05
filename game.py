@@ -1,5 +1,4 @@
-from noormi.gaming import *
-from noormi.classics import alison
+from noormiextracts import *
 from random import choice as ch
 
 # LEVEL BUILDING
@@ -124,4 +123,5 @@ def play(chosen_word):
     # reset for next match
     VALID_WORDS = []
     CLR_LETTERS = {chr:PYGAME_GRAY for chr in alpha}
+
     return
