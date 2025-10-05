@@ -1,4 +1,4 @@
-from noormi.gaming import *
+from noormiextracts import *
 
 
 # class for Button management
@@ -35,3 +35,4 @@ def choice_level(list_buttons,pos):
         if b.is_clicked(pos)!=-1:
             return b.is_clicked(pos)
     return -1
+
