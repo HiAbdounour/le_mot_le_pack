@@ -1,4 +1,4 @@
-from noormi.gaming import *
+from noormiextracts import *
 from menu import print_menu, choice_level
 from game import build_level,play
 
@@ -30,4 +30,5 @@ while running:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             running = False
+
             pygame.quit()
