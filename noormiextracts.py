@@ -3,6 +3,7 @@
 # Here only efficient extracts to work with Le Mot (Le Pack)
 # ===========================================================
 
+from typing import Literal
 import pygame
 pygame.init()
 
@@ -18,6 +19,8 @@ PYGAME_GREEN = pygame.Color(0,255,0)
 PYGAME_ORANGE = pygame.Color(255,127,0)
 PYGAME_RED = pygame.Color(255,0,0)
 PYGAME_WHITE = pygame.Color(255,255,255)
+PYGAME_BLACK = pygame.Color(0,0,0)
+PYGAME_BLUE = pygame.Color(0,0,255)
 
 def alison(key:Literal['alpha','ALPHA','num','alphanum','ALPHANUM','all','allnum']='allnum')-> str:
     """
@@ -244,3 +247,4 @@ def wait_key()-> str:
                     return pygame.key.name(ctxt)
 
 					
+
