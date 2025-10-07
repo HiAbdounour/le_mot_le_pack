@@ -23,7 +23,7 @@ Deux moyens existent pour télécharger le code source.
 
 ### Depuis la Release GitHub
 
-Rendez-vous dans la section [Releases](https://github.com/HiAbdounour/le_mot_le_pack/edit/main/README.md) et sélectionnez la version qui vous intéresse (la première est la plus récente).\
+Rendez-vous dans la section [Releases](https://github.com/HiAbdounour/releases) et sélectionnez la version qui vous intéresse (la première est la plus récente).\
 Vous trouverez après un message descriptif de la Release un dossier .zip et un dossier .rar contenant tous les fichiers du repo. Il vous suffit de télécharger l'un des dossiers, de le dézipper puis de lancer le fichier main.py (depuis un IDE ou depuis le terminal en tapant `python main.py`).
 
 ### Depuis le terminal
@@ -52,3 +52,4 @@ Le Mot est une version revisitée à ma sauce du [Wordle](https://github.com/lou
 
 Les mots utilisés dans ce jeu sont tirés de la version 6 (2012) du Dictionnaire Officiel du Scrabble. Tous les mots utilisés dans le jeu ont une longueur comprise entre 3 et 6 lettres et sont conservés dans les fichiers .txt du repo.\
 Par exemple, le fichier *mots4.txt* contient tous les mots valides de 4 lettres.
+
