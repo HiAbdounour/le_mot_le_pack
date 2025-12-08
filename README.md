@@ -16,7 +16,7 @@ La partie se termine lorsque le joueur a trouvé le mot ou lorsque les six essai
 
 ## Comment jouer ?
 
-Ce jeu est (pour le moment) disponible uniquement sous forme Python : il est nécessaire de télécharger le code source pour pouvoir y jouer.\
+Ce jeu fonctionne uniquement avec Python : il est nécessaire de télécharger le code source pour pouvoir y jouer.\
 Version PC uniquement.
 
 Deux moyens existent pour télécharger le code source.
@@ -24,7 +24,7 @@ Deux moyens existent pour télécharger le code source.
 ### Depuis la Release GitHub
 
 Rendez-vous dans la section [Releases](https://github.com/HiAbdounour/le_mot_le_pack/releases) et sélectionnez la version qui vous intéresse (la première est la plus récente).\
-Vous trouverez après un message descriptif de la Release un dossier .zip et un dossier .rar contenant tous les fichiers du repo. Il vous suffit de télécharger l'un des dossiers, de le dézipper puis de lancer le fichier main.py (depuis un IDE ou depuis le terminal en tapant `python main.py`).
+Vous trouverez après un message descriptif de la Release un dossier .zip et un dossier .rar contenant tous les fichiers du repo. Il vous suffit de télécharger l'un des dossiers, de le dézipper puis de lancer le fichier main.py (depuis le terminal en tapant `python main.py` ou depuis un IDE (VS Code, PyCharm, Spyder, etc)).
 
 ### Depuis le terminal
 
@@ -43,7 +43,7 @@ Pour lancer le jeu, il suffit de taper
 
 ### Requis
 
-Python version 3.12 ou ultérieure
+Python version 3.12 ou ultérieure\
 pygame version 2.6.1 ou ultérieure
 
 ## Sources
@@ -52,5 +52,6 @@ Le Mot est une version revisitée à ma sauce du [Wordle](https://github.com/lou
 
 Les mots utilisés dans ce jeu sont tirés de la version 6 (2012) du Dictionnaire Officiel du Scrabble. Tous les mots utilisés dans le jeu ont une longueur comprise entre 3 et 6 lettres et sont conservés dans les fichiers .txt du repo.\
 Par exemple, le fichier *mots4.txt* contient tous les mots valides de 4 lettres.
+
 
 
