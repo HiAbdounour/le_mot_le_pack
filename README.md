@@ -38,6 +38,7 @@ Cette instruction va directement télécharger le code source sur votre machine.
 
 Pour lancer le jeu, il suffit de taper
 ```bash
+    cd le_mot_le_pack
     python main.py
 ```
 
@@ -52,6 +53,7 @@ Le Mot est une version revisitée à ma sauce du [Wordle](https://github.com/lou
 
 Les mots utilisés dans ce jeu sont tirés de la version 6 (2012) du Dictionnaire Officiel du Scrabble. Tous les mots utilisés dans le jeu ont une longueur comprise entre 3 et 6 lettres et sont conservés dans les fichiers .txt du repo.\
 Par exemple, le fichier *mots4.txt* contient tous les mots valides de 4 lettres.
+
 
 
 
