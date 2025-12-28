@@ -39,8 +39,8 @@ def update_status(letter,clr):
     global CLR_LETTERS,alpha
     if CLR_LETTERS[letter]==PYGAME_GRAY:
         CLR_LETTERS[letter] = clr
-    elif CLR_LETTERS[letter]==PYGAME_ORANGE:
-        CLR_LETTERS[letter] = PYGAME_GREEN
+    elif CLR_LETTERS[letter]==PYGAME_ORANGE and clr!=PYGAME_GRAY:
+        CLR_LETTERS[letter] = clr
     else:
         return
     i = alpha.index(letter)
